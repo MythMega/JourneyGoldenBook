@@ -16,7 +16,11 @@
     top: 50%;
     left:50%;
     transform: translate(-50%, -50%);
+    animation-duration: 1s;
+    animation-name: fadein;
+    
 }
+
 
 .content_big {
     border: 2px;
@@ -32,18 +36,27 @@
 
 form {
     margin: 50px;
+    animation-duration: 2s;
+    animation-name: slidein;
 }
 
 body {
     font-family: 'Montserrat';
     font-size: 15px;
     font-weight: 100;
+    
 }
 
+
+body * {
+    
+}
 
 form * {
     margin-top: 15px;
+    
 }
+
 
 .txtColored {
     font-size: 2em;
@@ -55,6 +68,7 @@ form * {
     margin-left: 40%;
     background-color: chocolate;
     border-color: chocolate;
+    
 }
 
 .formButton:hover {
@@ -78,4 +92,27 @@ th {
 
 td {
     color: rgb(255, 148, 71);
+}
+
+@keyframes slidein {
+    from {
+      padding-left: 15%;
+      opacity: 0.1;
+    }
+  
+    to {
+      /* padding-left: 0%; */
+      opacity: 1;
+    }
+}
+
+
+@keyframes fadein {
+    from {
+      opacity: 0.1;
+    }
+  
+    to {
+      opacity: 1;
+    }
 }
