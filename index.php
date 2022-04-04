@@ -2,7 +2,7 @@
 
 <div class="content">
     <form action="traitement.php" method="POST">
-        <h3 class="txtColored">Journey's GoldenBooks</h3>
+        <h3 class="txtColored">Journey's GoldenBook</h3>
         <label for="inputName" class="txtColored"><strong>Your name</strong></label>
         <input class="form-control form-control-lg" type="text" placeholder="Ed'" aria-label=".form-control-lg example" id="inputName" name="inputName">
         <label for="inputName" class="txtColored"><strong>Your message</strong></label>
