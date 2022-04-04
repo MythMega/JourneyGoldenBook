@@ -6,8 +6,7 @@
         <label for="inputName" class="txtColored" minlength="5" maxlength="50"><strong>Your name</strong></label>
         <input class="form-control form-control-lg" type="text" placeholder="Ed'" aria-label=".form-control-lg example" id="inputName" name="inputName">
         <label for="inputName" class="txtColored"><strong>Your message</strong></label>
-          <label for="" class="form-label"></label>
-          <textarea class="form-control  form-control-lg" name="inputMsg" id="inputMsg" rows="3" placeholder="I loved it because..." maxlength="511" aria-label=".form-control-lg example"></textarea>
+        <textarea class="form-control  form-control-lg" name="inputMsg" id="inputMsg" rows="3" placeholder="I loved it because..." maxlength="511" aria-label=".form-control-lg example"></textarea>
         <button type="submit" class="btn btn-primary mb-3 formButton">Send</button>
     </form>
 </div>
