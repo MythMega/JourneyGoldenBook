@@ -26,7 +26,7 @@
                         }
 
                         // On récupère les 25 derniers billets
-                        $req = $bdd->query('SELECT id, pseudo, message, DATE_FORMAT(date, \'%d/%m/%Y\') AS date_creation FROM messages ORDER BY date DESC');
+                        $req = $bdd->query('SELECT id, pseudo, message, DATE_FORMAT(date, \'%d/%m/%Y\') AS date_creation FROM messages ORDER BY id DESC');
 
                         while ($donnees = $req->fetch())
                         {

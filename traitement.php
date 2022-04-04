@@ -4,7 +4,8 @@ date_default_timezone_set('Europe/Paris');
 $name=$_POST['inputName'];
 $message=$_POST['inputMsg'];
 //$dateMsg = date('m/d/Y');
-
+$name = addslashes($name);
+$message = addslashes($message);
 
 
 $servername = "localhost";
