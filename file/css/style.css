@@ -1,0 +1,60 @@
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+.content {
+    border: 2px;
+    border-radius: 15px;
+    border-color: black;
+    background-color: rgba(0, 0, 0, 0.589);
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+form {
+    margin: 50px;
+}
+
+body {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 100;
+}
+
+
+form * {
+    margin-top: 15px;
+}
+
+.txtColored {
+    font-size: 2em;
+    color: chocolate;
+}
+
+
+.formButton {
+    margin-left: 40%;
+    background-color: chocolate;
+    border-color: chocolate;
+}
+
+.formButton:hover {
+    background-color: #ff9447;
+    border-color: rgb(255, 148, 71);
+}
+
+.formButton:active {
+    background-color: rgb(255, 148, 71);
+    border-color: rgb(255, 148, 71);
+}
+
+::selection {
+    background-color: rgb(255, 148, 71);
+    border-color: rgb(255, 148, 71);
+}
